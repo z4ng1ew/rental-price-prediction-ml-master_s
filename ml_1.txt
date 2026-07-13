@@ -1,0 +1,126 @@
+Main part. Task 1
+1.a. Verification examples
+
+1.b. Supervised: Classification: 2, 4 (as multiclass with target = ), 5 (target = whether customer participates in promotion or not or whether customer buys products from promotion), 6 (target = defect or not), 8 (target = whether user opens link, multiclass is bad option here because number of pages is too big), 10 (if we have detected facts of malfunctions).
+
+  Supervised: Regression: 1, 3 (predict number of hours from last medication), 7 (predict profit from shelf, but we should also solve how to get optimal configuration from such a model).
+
+  Unsupervised: Clustering: 5 (task is to find users that will be in the same cluster who have already bought products from promo), 6 (task is to find products that will be in the same cluster with known defects), 9, 10 (task is to cluster traffic that is not similar to what we usually have).
+
+  Unsupervised: Association: 5 (task is to find users who are similar to others who have already bought products from promo), 7 (here we can take very different approaches. Nevertheless, we can detect which products are often bought together (complementary products), or try to understand the influence of a product on its neighbors and use this information when we will estimate the profit).
+
+  Unsupervised: Dimensionality Reduction: 5 and 9 (we can use it together with clustering to understand main characteristics of clusters/segments and even visualize them in 2D scatter plot).
+
+  This division is only an example and does not cover all possible cases.
+1.c. Multiclass classification is a classification task with more than two classes; for example, classifying a set of images of fruits that can be oranges, apples, or pears. Multiclass classification assumes that each sample is assigned to one and only one label: a fruit can be either an apple or a pear, but not both at the same time. Multilabel classification assigns a set of target labels to each sample. This can be thought of as predicting properties of a data point that are not mutually exclusive, such as topics that are relevant to a document. A text might be about religion, politics, finance, or education, all at the same time, or none of them. Taken from http://scikit-learn.org/stable/modules/multiclass.html.
+
+1.d. Theoretical example is a regression problem. We can reduce a regression problem to a classification problem by stratifying our target. In other words, it is possible to divide a continuous target into discrete groups.
+
+
+
+
+
+
+
+
+
+1/
+
+
+ Supervised: Regression: 1, 3 (predict number of hours from last medication), 7 (predict profit from shelf, but we should also solve how to get optimal configuration from such a model).
+
+  Unsupervised: Clustering: 5 (task is to find users that will be in the same cluster who have already bought products from promo), 6 (task is to find products that will be in the same cluster with known defects), 9, 10 (task is to cluster traffic that is not similar to what we usually have).
+
+  Unsupervised: Association: 5 (task is to find users who are similar to others who have already bought products from promo), 7 (here we can take very different approaches. Nevertheless, we can detect which products are often bought together (complementary products), or try to understand the influence of a product on its neighbors and use this information when we will estimate the profit).
+
+  Unsupervised: Dimensionality Reduction: 5 and 9 (we can use it together with clustering to understand main characteristics of clusters/segments and even visualize them in 2D scatter plot).
+
+  This division is only an example and does not cover all possible cases.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Main part. Task 1
+1.a. Verification examples
+
+1.b. Supervised: Classification: 2, 4 (as multiclass with target = ), 5 (target = whether customer participates in promotion or not or whether customer buys products from promotion), 6 (target = defect or not), 8 (target = whether user opens link, multiclass is bad option here because number of pages is too big), 10 (if we have detected facts of malfunctions).
+
+  Supervised: Regression: 1, 3 (predict number of hours from last medication), 7 (predict profit from shelf, but we should also solve how to get optimal configuration from such a model).
+
+  Unsupervised: Clustering: 5 (task is to find users that will be in the same cluster who have already bought products from promo), 6 (task is to find products that will be in the same cluster with known defects), 9, 10 (task is to cluster traffic that is not similar to what we usually have).
+
+  Unsupervised: Association: 5 (task is to find users who are similar to others who have already bought products from promo), 7 (here we can take very different approaches. Nevertheless, we can detect which products are often bought together (complementary products), or try to understand the influence of a product on its neighbors and use this information when we will estimate the profit).
+
+  Unsupervised: Dimensionality Reduction: 5 and 9 (we can use it together with clustering to understand main characteristics of clusters/segments and even visualize them in 2D scatter plot).
+
+  This division is only an example and does not cover all possible cases.
+1.c. Multiclass classification is a classification task with more than two classes; for example, classifying a set of images of fruits that can be oranges, apples, or pears. Multiclass classification assumes that each sample is assigned to one and only one label: a fruit can be either an apple or a pear, but not both at the same time. Multilabel classification assigns a set of target labels to each sample. This can be thought of as predicting properties of a data point that are not mutually exclusive, such as topics that are relevant to a document. A text might be about religion, politics, finance, or education, all at the same time, or none of them. Taken from http://scikit-learn.org/stable/modules/multiclass.html.
+
+1.d. Theoretical example is a regression problem. We can reduce a regression problem to a classification problem by stratifying our target. In other words, it is possible to divide a continuous target into discrete groups.
+
+
+012345
+
+Main part. Task 2
+2.c. (49352, 15)
+2.d. Target is Price.
+2.e. There are no empty columns.
+
+012345
+
+Main part. Task 3
+3.b.i. All values are in 0? There are some large values. We need to find outliers. (materials/etalons/3bi.png).
+
+3.b.ii. Boxplot shows there are outliers (materials/etalons/3bii.png).
+
+3.b.iv. Removing the outliers allows to see a good distribution. You need to remove outliers when working with linear regression (materials/etalons/3biv.png).
+
+3.c.i. Object type.
+
+3.c.ii. Three values — it is necessary to decode: low 33697 medium 11116 high 3566
+
+3.c.iv. There are no outliers for bathrooms and bedrooms (materials/etalons/3civ-1.png) (materials/etalons/3civ-2.png).
+
+3.d.i. The maximum correlation with bathrooms (materials/etalons/3di.png).
+
+3.d.ii (materials/etalons/3dii-1.png)(materials/etalons/3dii-2.png).
+
+
+012345
+
+Main part. Task 4
+4.a There are no greater correlations with squared features (materials/etalons/4a.png).
+
+012345
+
+Main part. Task 5
+5.e. Peer's metrics may be some differ. It depends on sklearn version. Below you see approximately right metrics (materials/etalons/5e.png).
+
+012345
+
+Fails
+
+
+
+
