@@ -14,6 +14,27 @@ pip install jupyterlab pandas numpy matplotlib seaborn scikit-learn
 jupyter lab
 
 
+# установить именно внутри окружения
+
+pip install jupyter
+
+
+
+jupyter notebook
+
+
+
+# все пакеты
+
+
+pip install pandas numpy matplotlib seaborn scikit-learn lightgbm scipy statsmodels jupyter ipykernel
+
+
+
+
+
+
+
 
 
 
